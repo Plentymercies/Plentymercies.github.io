@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where I graduated as the best graduating student. After completing the National Youth Service Corps, I began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.\n\n\nMy background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development.\n\n\n\nOutside of data science, I enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when I have the time."
-  },
-  {
-    "objectID": "about.html#why-data-science",
-    "href": "about.html#why-data-science",
-    "title": "About",
-    "section": "",
-    "text": "My background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development."
-  },
-  {
-    "objectID": "about.html#outside-of-data-science",
-    "href": "about.html#outside-of-data-science",
-    "title": "About",
-    "section": "",
-    "text": "Outside of data science, I enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when I have the time."
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nAnuoluwapo Deborah Akinkunmi\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -35,24 +21,24 @@
     "text": "Orientation day on campus. Picture Credit: UBC MDS LinkedIn\n\n\nStarting the Master of Data Science program has been a whirlwind, and I wanted to capture my first week here while it’s still fresh. Orientation ran for three days, and each one brought something a little different.\nDay 1: Information Overload (In a Good Way)\nThe first day was packed with information. We met the MDS faculty members, who were incredibly welcoming from the very first hello. I also started making connections with other students in the room — many of them from different countries, which made for a genuinely interesting mix of backgrounds and perspectives. It was a lot to take in, and honestly a bit of a stretch mentally, but it was fun getting to know everyone.\nDay 2: Teamwork and Real Talk with Alumni\nDay two had more spice, literally and figuratively. We took part in a campus scavenger hunt, working in teams — a great, low-stakes way to build teamwork skills right out of the gate. Later, we had alumni come speak to us, and we got the chance to ask them questions as a group as well as chat with them one-on-one. Hearing their honest experiences made the program feel a lot more real and less abstract.\nAnd, of course, there was no shortage of food and drinks throughout all three days. It made the long days a lot more enjoyable.\n\n\n\nPicture Credit: UBC MDS LinkedIn\n\n\nDay 3: Looking Ahead\nThe last day wrapped up with dinner and a session where alumni shared their capstone projects. It was a genuinely wonderful way to get a glimpse of what the next 10 months might look like. Beyond the project examples themselves, the survival tips they shared were probably the biggest takeaway for me — along with a reminder of just how much working as a team and building community matters throughout the program.\nReflecting Back\nThree days in, and I already feel like I’ve learned as much about the people around me as I have about the program itself. If this week is any indication, the next 10 months are going to be intense, but full of good people to go through it with."
   },
   {
-    "objectID": "posts/first-weeks/post.html",
-    "href": "posts/first-weeks/post.html",
-    "title": "Blog",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "No matching items"
+    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.\n\n\nMy background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development.\n\n\n\nOutside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time."
   },
   {
-    "objectID": "posts/first-weeks/blog.html",
-    "href": "posts/first-weeks/blog.html",
-    "title": "Blog",
+    "objectID": "about.html#why-data-science",
+    "href": "about.html#why-data-science",
+    "title": "About",
     "section": "",
-    "text": "No matching items"
+    "text": "My background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "about.html#outside-of-data-science",
+    "href": "about.html#outside-of-data-science",
+    "title": "About",
     "section": "",
-    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nAnuoluwapo Deborah Akinkunmi\n\n\n\n\n\nNo matching items"
+    "text": "Outside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time."
   }
 ]

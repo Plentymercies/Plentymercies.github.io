@@ -4,7 +4,7 @@ title: "About"
 
 # Background
 
-I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where I graduated as the best graduating student. After completing the National Youth Service Corps, I began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.
+I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.
 
 ## Why Data Science
 
@@ -12,4 +12,4 @@ My background in Statistics introduced me to the power of data in solving real-w
 
 ## Outside of Data Science
 
-Outside of data science, I enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when I have the time.
+Outside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time.
