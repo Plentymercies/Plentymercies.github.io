@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/posts/first-weeks/post.html",
+    "items": []
+  },
+  {
+    "listing": "/posts/first-weeks/blog.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/first-weeks/index.html"
+    ]
+  }
+]

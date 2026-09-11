@@ -4,13 +4,55 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where I graduated as the best graduating student. After completing the National Youth Service Corps, I began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.\n\n\nMy background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development.\n\n\n\nOutside of data science, I enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when I have the time."
+  },
+  {
+    "objectID": "about.html#why-data-science",
+    "href": "about.html#why-data-science",
+    "title": "About",
+    "section": "",
+    "text": "My background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development."
+  },
+  {
+    "objectID": "about.html#outside-of-data-science",
+    "href": "about.html#outside-of-data-science",
+    "title": "About",
+    "section": "",
+    "text": "Outside of data science, I enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when I have the time."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Anu’s Homepage",
+    "title": "Anuoluwapo Deborah Akinkunmi",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a native of Oyo State, Nigeria, and grew up surrounded by the values of hard work, resilience, responsibility and community. My journey has been shaped by the people and experiences around me, from my family and education to the communities I have had the opportunity to work and serve in. I have had opportunities to work on survey data on projects across Nigeria, but beyond work, I have always been drawn to helping people and finding ways to make a meaningful impact."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Orientation day on campus."
+  },
+  {
+    "objectID": "posts/first-weeks/post.html",
+    "href": "posts/first-weeks/post.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "posts/first-weeks/blog.html",
+    "href": "posts/first-weeks/blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 11, 2026\n\n\nAnuoluwapo Deborah Akinkunmi\n\n\n\n\n\nNo matching items"
   }
 ]

@@ -1,6 +1,8 @@
 ---
 title: "Anuoluwapo Deborah Akinkunmi"
-![](images/profile.jpg){width=250px}
+about: 
+    template: jolla
+    image: images/profile.jpg
 ---
 
 
