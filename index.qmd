@@ -1,7 +1,11 @@
 ---
-title: "Anu's Homepage"
+title: "Anuoluwapo Deborah Akinkunmi"
+![](images/profile.jpg){width=250px}
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a native of Oyo State, Nigeria, and grew up surrounded by the values of hard work, resilience, responsibility and community. My journey has been shaped by the people and experiences around me, from my family and education to the communities I have had the opportunity to work and serve in. I have had opportunities to work on survey data on projects across Nigeria, but beyond work, I have always been drawn to helping people and finding ways to make a meaningful impact.
+
+
+
+

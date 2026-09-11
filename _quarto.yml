@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Anu's Homepage"
+  title: "Anuoluwapo Deborah Akinkunmi"
   navbar:
     left:
       - href: index.qmd
