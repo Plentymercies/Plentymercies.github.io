@@ -1,0 +1,46 @@
+---
+title: "Penguin Body Mass by Species (Python)"
+author: "Anuoluwapo Akinkunmi"
+date: 2026-09-21
+---
+
+Data: [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/),
+Palmer Station Antarctica LTER, available via the `palmerpenguins`
+Python package (CC0 licence).
+
+```{python}
+#| message: false
+#| warning: false
+import pandas as pd
+import matplotlib.pyplot as plt
+from palmerpenguins import load_penguins
+
+penguins = load_penguins()
+penguins = penguins.dropna()
+```
+
+A quick look at the data:
+
+```{python}
+penguins.head()
+```
+
+Average body mass by species:
+
+```{python}
+summary = penguins.groupby("species")["body_mass_g"].mean().round(1)
+summary
+```
+
+```{python}
+#| label: fig-penguin-mass-py
+#| fig-cap: "Average body mass (g) by penguin species."
+fig, ax = plt.subplots()
+summary.plot(kind="bar", ax=ax)
+ax.set_ylabel("Body mass (g)")
+ax.set_xlabel("Species")
+plt.show()
+```
+
+Gentoo penguins are noticeably heavier on average than Adelie or
+Chinstrap penguins in this dataset.
