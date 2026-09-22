@@ -19,7 +19,7 @@ penguins = load_penguins()
 penguins = penguins.dropna()
 ```
 
-A quick look at the data:
+A quick look at the data(the top 5 rows):
 
 ```{python}
 penguins.head()

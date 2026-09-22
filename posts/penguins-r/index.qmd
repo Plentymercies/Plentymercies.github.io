@@ -1,0 +1,46 @@
+---
+title: "Penguin Bill Length by Species (R)"
+author: "Anuoluwapo Akinkunmi"
+date: 2026-09-21
+---
+
+Data: [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/),
+Palmer Station Antarctica LTER, available via the `palmerpenguins`
+R package (CC0 licence).
+
+```{r}
+#| message: false
+#| warning: false
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+penguins_clean <- penguins %>% filter(!is.na(bill_length_mm))
+```
+
+A quick look at the data:
+
+```{r}
+head(penguins_clean)
+```
+
+Average bill length by species:
+
+```{r}
+summary_table <- penguins_clean %>%
+  group_by(species) %>%
+  summarise(mean_bill_length = round(mean(bill_length_mm), 1))
+
+summary_table
+```
+
+```{r}
+#| label: fig-penguin-bill-r
+#| fig-cap: "Average bill length (mm) by penguin species."
+ggplot(summary_table, aes(x = species, y = mean_bill_length)) +
+  geom_col() +
+  labs(x = "Species", y = "Bill length (mm)")
+```
+
+Chinstrap penguins have the longest average bill length among the
+three species in this dataset.
