@@ -1,4 +1,3 @@
-# Plentymercies.github.io
 ## Build instructions
 
 This repository is a Quarto website with two computational blog posts,
