@@ -25,21 +25,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.\n\n\nMy background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development.\n\n\n\nOutside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time."
+    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills."
   },
   {
     "objectID": "about.html#why-data-science",
     "href": "about.html#why-data-science",
     "title": "About",
-    "section": "",
-    "text": "My background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development."
+    "section": "Why Data Science",
+    "text": "Why Data Science\nMy background in Statistics introduced me to the power of data in solving real-world problems. Working with large-scale survey data further showed me the need for stronger technical skills to turn data into useful insights and solutions. I joined the MDS program to build practical data science skills that I can apply to challenges in areas such as public health, education, and development."
   },
   {
     "objectID": "about.html#outside-of-data-science",
     "href": "about.html#outside-of-data-science",
     "title": "About",
-    "section": "",
-    "text": "Outside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time."
+    "section": "Outside of Data Science",
+    "text": "Outside of Data Science\nOutside of data science, i enjoy singing, playing table tennis and volleyball, reading, and mentoring young people. I also enjoy spending time with people, serving in my community, and trying out baking and cooking when i have the time."
   },
   {
     "objectID": "posts/penguins-python/index.html",
@@ -54,5 +54,12 @@
     "title": "Penguin Bill Length by Species (R)",
     "section": "",
     "text": "Data: palmerpenguins, Palmer Station Antarctica LTER, available via the palmerpenguins R package (CC0 licence).\n\nlibrary(palmerpenguins)\nlibrary(dplyr)\nlibrary(ggplot2)\n\npenguins_clean &lt;- penguins %&gt;% filter(!is.na(bill_length_mm))\n\nA quick look at the data:\n\nhead(penguins_clean)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;\n1 Adelie  Torgersen           39.1          18.7               181        3750\n2 Adelie  Torgersen           39.5          17.4               186        3800\n3 Adelie  Torgersen           40.3          18                 195        3250\n4 Adelie  Torgersen           36.7          19.3               193        3450\n5 Adelie  Torgersen           39.3          20.6               190        3650\n6 Adelie  Torgersen           38.9          17.8               181        3625\n# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;\n\n\nAverage bill length by species:\n\nsummary_table &lt;- penguins_clean %&gt;%\n  group_by(species) %&gt;%\n  summarise(mean_bill_length = round(mean(bill_length_mm), 1))\n\nsummary_table\n\n# A tibble: 3 × 2\n  species   mean_bill_length\n  &lt;fct&gt;                &lt;dbl&gt;\n1 Adelie                38.8\n2 Chinstrap             48.8\n3 Gentoo                47.5\n\n\n\nggplot(summary_table, aes(x = species, y = mean_bill_length)) +\n  geom_col() +\n  labs(x = \"Species\", y = \"Bill length (mm)\")\n\n\n\n\n\n\n\nFigure 1: Average bill length (mm) by penguin species.\n\n\n\n\n\nChinstrap penguins have the longest average bill length among the three species in this dataset."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills."
   }
 ]

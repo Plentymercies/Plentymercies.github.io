@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-# Background
+## Background
 
 I am from Oyo State in South-West Nigeria. I studied Statistics at the Federal University of Technology, Akure, where i graduated as the best graduating student. After completing the National Youth Service Corps, i began working as an Assistant Survey Data Manager, where I gained practical experience working with data from different projects and communities. These experiences have strengthened my interest in solving real-world problems with data and motivated me to continue building my problem-solving and programming skills.
 
