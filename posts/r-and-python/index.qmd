@@ -1,0 +1,57 @@
+---
+title: "Penguin Analysis: R and Python Together"
+author: "Your Name"
+date: 2026-09-25
+---
+
+Data: [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/),
+Palmer Station Antarctica LTER (CC0 licence).
+
+This post computes a summary in R, passes it to Python for a
+calculation, then passes that result back to R for a plot.
+
+```{r}
+#| message: false
+#| warning: false
+library(reticulate)
+library(here)
+reticulate::use_python(here::here(".venv", "bin", "python")
+, required = TRUE)
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+penguins_clean <- penguins %>% filter(!is.na(body_mass_g))
+
+r_summary <- penguins_clean %>%
+  group_by(species) %>%
+  summarise(mean_mass = mean(body_mass_g))
+
+r_summary
+```
+
+Now hand that R object to Python and do something with it there:
+
+```{python}
+import pandas as pd
+
+r_df = r.r_summary
+r_df["mean_mass_kg"] = r_df["mean_mass"] / 1000
+r_df
+```
+
+Read the Python result back into R for the plot:
+
+```{r}
+#| label: fig-penguin-mass-combined
+#| fig-cap: "Average penguin body mass (kg), computed in Python from an R summary."
+combined <- py$r_df
+
+ggplot(combined, aes(x = species, y = mean_mass_kg)) +
+  geom_col() +
+  labs(x = "Species", y = "Mean body mass (kg)")
+```
+
+Gentoo penguins remain the heaviest species on average, whether the
+mass is expressed in grams (computed in R) or converted to kilograms
+(computed in Python).
