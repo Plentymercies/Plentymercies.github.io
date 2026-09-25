@@ -1,6 +1,6 @@
 ---
 title: "Penguin Analysis: R and Python Together"
-author: "Your Name"
+author: "Anuoluwapo Akinkunmi"
 date: 2026-09-25
 ---
 
